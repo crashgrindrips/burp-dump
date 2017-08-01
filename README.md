@@ -64,9 +64,13 @@ privileges, is intercepted by Burp.
 Observing the different X-Burp-Comment Headers in the log file(s) will reveal:
 
 X-Burp-Comment: Change Password  |  !!! John Login - Basic User
+
 X-Burp-Comment: Transfer Funds  |  !!! John Login - Basic User
+
 X-Burp-Comment: Change Password  |  !!! Mary Login - Admin User
+
 X-Burp-Comment: Create User Account  |  !!! Mary Login - Admin User
+
 X-Burp-Comment: Change User Account Email  |  !!! Mary Login - Admin User
 
 **SEE IT IN ACTION**
