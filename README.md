@@ -6,7 +6,7 @@ PortSwigger’s BurpSuite is the de facto tool for web, API, and mobile applicat
 
 * BurpSuite provides a comment functionality that can be used to annotate requests / responses, a feature useful to analysts to provide additional information and context to logged data.  However, Burp comment data is not reflected in BurpSuite’s logging output.
 
-* Often, analysts perform a basic functionality walkthrough an application to understand the application and observe traffic generated during typical use.  If a security consultant forgets to enable logging beforehand, the process must be repeated after enabling logging.
+* Often, analysts perform a basic functionality walkthrough of an application to understand the application and observe traffic generated during typical use.  If a security consultant forgets to enable logging beforehand, the process must be repeated after enabling logging.
 
 * Also, other tools are able to parse BurpSuite’s text log format in order to perform tasks (for example, sqlmap’s -l option).
 
