@@ -10,7 +10,7 @@ PortSwigger’s BurpSuite is the de facto tool for web, API, and mobile applicat
 
 * Also, other tools are able to parse BurpSuite’s text log format in order to perform tasks (for example, sqlmap’s -l option).
 
-Dump was written to address these issues.  It is a simple BurpSuite extension written in JRuby that exports HTTP(S) requests and responses for specified hosts in two different log formats.
+Dump is a simple BurpSuite extension written in JRuby to exports HTTP(S) requests and responses for specified hosts in two different log formats, even in cases where logging was not enabled previously.
 
 **Log Formats**
 
