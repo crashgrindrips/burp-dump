@@ -20,7 +20,7 @@ Dump was written to address these issues.  It is a simple BurpSuite extension wr
 
 *Note*: Due to a limitation of accessing certain types of metadata within the Burp Extender API, please note that timestamps and the IP address entries in metadata header of the Burp log file format are faked, as highlighted in this screenshot:
 
-![Faked Burp log file metadata](/content/images/2017/07/DumpPluginFakedData_SublimeText_Highlights.png)
+![Faked Burp log file metadata](http://blog.stratumsecurity.com/content/images/2017/07/DumpPluginFakedData_SublimeText_Highlights.png)
 
 However, the URI portion is valid and reliable. Also, the original HTTP(S) request and response are unadulterated, with exception of the Burp Comment Header inserted by the dump plugin (unless disabled). 
 
