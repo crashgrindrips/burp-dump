@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #
-# Dump - a Burp plugin Use dump HTTP(S) request/responses to a filesystem.
+# Dump - a Burp plugin to dump HTTP(S) request/responses to a filesystem.
 #
 # Copyright (c) 2017, Richard Springs <richard.springs[at]stratumsecurity.com>
 # All rights reserved.
@@ -532,7 +532,7 @@ class BurpExtender
             end
         end
         # display message upon completion
-        @label_status.text = "Last Dump Completed @ #{Time.now.strftime "%H:%M:%S %d/%M/%Y"} (~ #{Time.now.to_i - start_time.to_i}s)"
+        @label_status.text = "Last Dump Completed @ #{Time.now.strftime "%H:%M:%S %m/%d/%Y"} (~ #{Time.now.to_i - start_time.to_i}s)"
     end
 
 end
